@@ -1,2 +1,160 @@
-{"id": "utt_0101", "text": "email id is priyanka dot verma at outlook dot com and card number is 5555 5555 5555 4444", "entities": [{"start": 12, "end": 30, "label": "PERSON_NAME"}, {"start": 12, "end": 49, "label": "EMAIL"}, {"start": 69, "end": 88, "label": "CREDIT_CARD"}]}
-{"id": "utt_0102", "text": "my number is 9876543210 i am calling from mumbai and i will travel on 01 02 2024", "entities": [{"start": 13, "end": 23, "label": "PHONE"}, {"start": 42, "end": 48, "label": "CITY"}, {"start": 70, "end": 80, "label": "DATE"}]}
+{"id": "utt_0476", "text": "22533320 i need like travel on 01 02 2024 to hyderabad please call me at 6296208059", "entities": [{"start": 31, "end": 41, "label": "DATE"}, {"start": 45, "end": 54, "label": "CITY"}, {"start": 73, "end": 83, "label": "PHONE"}]}
+{"id": "utt_0779", "text": "my credit card number you know is 7522 9648 4210 9222 and basically it umm got blocked basically 372298 yesterday", "entities": [{"start": 34, "end": 53, "label": "CREDIT_CARD"}]}
+{"id": "utt_0294", "text": "need to ya travel on 20 april 2025 to bangalore please call me at six five four three six two seven one eight seven", "entities": [{"start": 21, "end": 34, "label": "DATE"}, {"start": 38, "end": 47, "label": "CITY"}, {"start": 66, "end": 115, "label": "PHONE"}]}
+{"id": "utt_0248", "text": "love the food in uh chennai and 4033041662 marina beach and phoenix 19639456 mall 7314976461 a lot", "entities": []}
+{"id": "utt_0818", "text": "please reset my password the phone linked is 4787268193", "entities": [{"start": 45, "end": 55, "label": "PHONE"}]}
+{"id": "utt_0028", "text": "i actually love the food in actually 4550229612 chennai and right marina beach and phoenix uh mall 476797 a lot", "entities": []}
+{"id": "utt_0442", "text": "deliver to mg road in chennai and my phone is 68442 46488", "entities": [{"start": 11, "end": 18, "label": "LOCATION"}, {"start": 22, "end": 29, "label": "CITY"}, {"start": 46, "end": 57, "label": "PHONE"}]}
+{"id": "utt_0743", "text": "ticket number 98765 43210 but my phone is 2786807042", "entities": [{"start": 42, "end": 52, "label": "PHONE"}]}
+{"id": "utt_0163", "text": "hi i am basically just 659152 calling basically ask about delivery uh status", "entities": []}
+{"id": "utt_0181", "text": "call kumar singh actually at two six one five three four seven three five five stay 84253042 near express avenue", "entities": [{"start": 5, "end": 16, "label": "PERSON_NAME"}, {"start": 29, "end": 78, "label": "PHONE"}, {"start": 98, "end": 112, "label": "LOCATION"}]}
+{"id": "utt_0211", "text": "i need to basically travel on 25 03 2022 basically to hyderabad so please call me at 5236687887", "entities": [{"start": 30, "end": 40, "label": "DATE"}, {"start": 54, "end": 63, "label": "CITY"}, {"start": 85, "end": 95, "label": "PHONE"}]}
+{"id": "utt_0048", "text": "uh can you please update my email to kumar71 dot sharma at gamil dot com today", "entities": [{"start": 37, "end": 72, "label": "EMAIL"}]}
+{"id": "utt_0769", "text": "8456771541 visiting jaipur and connaught place umm soon no personal details share", "entities": []}
+{"id": "utt_0902", "text": "hi 149262 i right am just calling to ask about delivery status", "entities": []}
+{"id": "utt_0916", "text": "hi 8334658672 i am just 640599743087 calling 78253712 to ask about delivery status", "entities": []}
+{"id": "utt_0080", "text": "you know need to travel on 25 of december 2023 to hyderabad call you know me at zero five three four five seven eight six one zero", "entities": [{"start": 27, "end": 46, "label": "DATE"}, {"start": 50, "end": 59, "label": "CITY"}, {"start": 80, "end": 130, "label": "PHONE"}]}
+{"id": "utt_0381", "text": "meeting on 01 09 2025 at brigade road call one two nine nine five seven zero four seven two", "entities": [{"start": 11, "end": 21, "label": "DATE"}, {"start": 25, "end": 37, "label": "LOCATION"}, {"start": 43, "end": 91, "label": "PHONE"}]}
+{"id": "utt_0488", "text": "umm hi i am just calling to ask about ya delivery status", "entities": []}
+{"id": "utt_0511", "text": "right visiting jaipur and you know connaught place soon no personal details to share", "entities": []}
+{"id": "utt_0463", "text": "staying in ahmedabad you know near marine drive just like asking about 665622419768 delivery status", "entities": []}
+{"id": "utt_0551", "text": "actually visiting 908543 jaipur and you know connaught place soon no personal details 009089 share", "entities": []}
+{"id": "utt_0785", "text": "uh you 9324183252 please update my like email ya to kumar dot iyer at yahoo dot com today", "entities": [{"start": 52, "end": 83, "label": "EMAIL"}]}
+{"id": "utt_0002", "text": "here is transaction number like 4242 4242 4242 4242 and uh my card is 5376 7242 3884 9696", "entities": [{"start": 70, "end": 89, "label": "CREDIT_CARD"}]}
+{"id": "utt_0009", "text": "hi actually i am ya just calling to ask ya 56159514 about delivery status", "entities": []}
+{"id": "utt_0501", "text": "uh call rohan patel at 4 3 5 9 6 one five 1 zero 7 i stay near phoenix mall", "entities": [{"start": 8, "end": 19, "label": "PERSON_NAME"}, {"start": 23, "end": 50, "label": "PHONE"}, {"start": 63, "end": 75, "label": "LOCATION"}]}
+{"id": "utt_0236", "text": "staying in ahmedabad you know near marine drive just asking 6435023850 about delivery status", "entities": []}
+{"id": "utt_0170", "text": "i need like to right travel on 05 06 2024 mumbai please call me at 10856 28843", "entities": [{"start": 31, "end": 41, "label": "DATE"}, {"start": 42, "end": 48, "label": "CITY"}, {"start": 67, "end": 78, "label": "PHONE"}]}
+{"id": "utt_0893", "text": "uh ya i wanted to know your return you know policy for you know damaged items", "entities": []}
+{"id": "utt_1039", "text": "i actually need travel on 05 07 2025 to delhi please call me uh at 94750 52201", "entities": [{"start": 26, "end": 36, "label": "DATE"}, {"start": 40, "end": 45, "label": "CITY"}, {"start": 67, "end": 78, "label": "PHONE"}]}
+{"id": "utt_0398", "text": "deliver to marine drive in chennai and my phone is 7740378423", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 27, "end": 34, "label": "CITY"}, {"start": 51, "end": 61, "label": "PHONE"}]}
+{"id": "utt_0733", "text": "uh ya uh i wanted to know your return policy for umm damaged items", "entities": []}
+{"id": "utt_0111", "text": "hi i am just calling ask actually about delivery status", "entities": []}
+{"id": "utt_0896", "text": "email is sita55 dot patel at gamil dot com but basically order id is 9876543210 and ya ref 4242 4242 4242 4242", "entities": [{"start": 9, "end": 42, "label": "EMAIL"}]}
+{"id": "utt_0333", "text": "heard about lucknow and brigade road but not sharing phone you know or you know mail", "entities": []}
+{"id": "utt_1009", "text": "hi 751414835156 this so is rohan verma i want to umm change my phone number to 07371 22072", "entities": [{"start": 27, "end": 38, "label": "PERSON_NAME"}, {"start": 79, "end": 90, "label": "PHONE"}]}
+{"id": "utt_1029", "text": "i booked 0595476168 the ticket on 01 05 2022 and you know i want a refund", "entities": [{"start": 34, "end": 44, "label": "DATE"}]}
+{"id": "utt_0522", "text": "deliver phoenix mall basically in hyderabad and my phone is 4377661830", "entities": [{"start": 8, "end": 20, "label": "LOCATION"}, {"start": 34, "end": 43, "label": "CITY"}, {"start": 60, "end": 70, "label": "PHONE"}]}
+{"id": "utt_0393", "text": "3709230071 i live 418948543298 in bangalore and my phone number is four eight one three one zero four five zero two", "entities": [{"start": 34, "end": 43, "label": "CITY"}, {"start": 67, "end": 115, "label": "PHONE"}]}
+{"id": "utt_0216", "text": "i 380214 booked the ticket on 30 of february 2024 and i want 72359096 a so refund", "entities": [{"start": 30, "end": 49, "label": "DATE"}]}
+{"id": "utt_0081", "text": "my credit 722903 card number is 4665743748969108 and it got blocked yesterday", "entities": [{"start": 32, "end": 48, "label": "CREDIT_CARD"}]}
+{"id": "utt_0363", "text": "my you know credit card number uh is 8364723875082768 and it like got blocked yesterday", "entities": [{"start": 37, "end": 53, "label": "CREDIT_CARD"}]}
+{"id": "utt_1063", "text": "ya i live ya in pune and my phone number is 2579535644", "entities": [{"start": 16, "end": 20, "label": "CITY"}, {"start": 44, "end": 54, "label": "PHONE"}]}
+{"id": "utt_0856", "text": "uh ya i wanted know your return policy for damaged items", "entities": []}
+{"id": "utt_0989", "text": "right uh ya i ya wanted know your 96149909 return policy for 989145481189 damaged items", "entities": []}
+{"id": "utt_0853", "text": "email is vivek dot patel at gamil dot com but order id is 9876543210 and ref 4242 4242 4242 4242", "entities": [{"start": 9, "end": 41, "label": "EMAIL"}]}
+{"id": "utt_0099", "text": "this is rohan verma basically from mumbai my email so is neha70 dot iyer at outlok dot com", "entities": [{"start": 8, "end": 19, "label": "PERSON_NAME"}, {"start": 35, "end": 41, "label": "CITY"}, {"start": 57, "end": 90, "label": "EMAIL"}]}
+{"id": "utt_0672", "text": "so email is kumar dot sharma at yahoo dot com but order id is you know 9876543210 and ref 4242 4242 you know 4242 uh 4242", "entities": [{"start": 12, "end": 45, "label": "EMAIL"}]}
+{"id": "utt_0350", "text": "i love the food in chennai and marina beach and phoenix 966101683113 mall a lot", "entities": []}
+{"id": "utt_1052", "text": "call mehta singh at 5752966471 uh stay near express avenue", "entities": [{"start": 5, "end": 16, "label": "PERSON_NAME"}, {"start": 20, "end": 30, "label": "PHONE"}, {"start": 44, "end": 58, "label": "LOCATION"}]}
+{"id": "utt_0770", "text": "here is transaction number 4242 4242 4242 4242 and my card is 9873 8640 0672 4663", "entities": [{"start": 62, "end": 81, "label": "CREDIT_CARD"}]}
+{"id": "utt_1149", "text": "umm just checking store timings near pune", "entities": [{"start": 37, "end": 41, "label": "CITY"}]}
+{"id": "utt_0039", "text": "call rohan rao you know at seven zero five eight nine five seven eight two nine right stay near brigade road", "entities": [{"start": 5, "end": 14, "label": "PERSON_NAME"}, {"start": 27, "end": 79, "label": "PHONE"}, {"start": 96, "end": 108, "label": "LOCATION"}]}
+{"id": "utt_0947", "text": "actually this is sita verma from chennai my email like is ramesh26 dot verma at outlook dot com", "entities": [{"start": 17, "end": 27, "label": "PERSON_NAME"}, {"start": 33, "end": 40, "label": "CITY"}, {"start": 58, "end": 95, "label": "EMAIL"}]}
+{"id": "utt_1016", "text": "here 94616222 is transaction number so 4242 4242 ya 84655921 4242 4242 and my card is 9745 3918 0238 4876", "entities": [{"start": 86, "end": 105, "label": "CREDIT_CARD"}]}
+{"id": "utt_0082", "text": "just checking store timings you know near pune", "entities": [{"start": 42, "end": 46, "label": "CITY"}]}
+{"id": "utt_0863", "text": "you know visiting jaipur and connaught place soon no personal details to share", "entities": []}
+{"id": "utt_0095", "text": "love the actually food in chennai and umm marina beach and phoenix mall a basically lot", "entities": []}
+{"id": "utt_0952", "text": "i booked the ticket on 15 of april 2022 and i right want a refund", "entities": [{"start": 23, "end": 39, "label": "DATE"}]}
+{"id": "utt_0604", "text": "staying in ahmedabad near marine drive you know just actually asking about delivery status", "entities": []}
+{"id": "utt_0046", "text": "uh ya wanted to know your return policy for umm damaged items", "entities": []}
+{"id": "utt_0848", "text": "my umm credit card number is 1947 3779 6263 8965 and it 001428 got blocked yesterday", "entities": [{"start": 29, "end": 48, "label": "CREDIT_CARD"}]}
+{"id": "utt_0581", "text": "right deliver to mg road in kolkata and my phone is three seven six seven six eight seven four zero four", "entities": [{"start": 17, "end": 24, "label": "LOCATION"}, {"start": 28, "end": 35, "label": "CITY"}, {"start": 52, "end": 104, "label": "PHONE"}]}
+{"id": "utt_0702", "text": "i love the food in chennai and marina basically 314836874777 beach and phoenix mall 622821282193 a lot", "entities": []}
+{"id": "utt_0252", "text": "staying in ahmedabad near marine like drive 028767 just asking right about delivery status", "entities": []}
+{"id": "utt_0600", "text": "reset my password the phone linked is 8030073565", "entities": [{"start": 38, "end": 48, "label": "PHONE"}]}
+{"id": "utt_0314", "text": "here is transaction number like 4242 umm 4242 4242 4242 and my card so is 0356 7932 7986 2398", "entities": [{"start": 74, "end": 93, "label": "CREDIT_CARD"}]}
+{"id": "utt_0470", "text": "deliver to brigade road you know in hyderabad and basically my 4654677205 phone umm 08715647 is 37031 75438", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 36, "end": 45, "label": "CITY"}, {"start": 96, "end": 107, "label": "PHONE"}]}
+{"id": "utt_0177", "text": "ya i love the food in chennai and umm 095431735058 marina beach and phoenix mall uh a lot", "entities": []}
+{"id": "utt_0594", "text": "cab 935820 pickup near 9722422848 cubbon park tomorrow at right 10 10 2024 nothing else", "entities": []}
+{"id": "utt_0044", "text": "live in bangalore and my phone number is 4973348434", "entities": [{"start": 8, "end": 17, "label": "CITY"}, {"start": 41, "end": 51, "label": "PHONE"}]}
+{"id": "utt_0990", "text": "this is ramesh kumar from hyderabad my email uh is ramesh dot rao at hotmail dot com", "entities": [{"start": 8, "end": 20, "label": "PERSON_NAME"}, {"start": 26, "end": 35, "label": "CITY"}, {"start": 51, "end": 84, "label": "EMAIL"}]}
+{"id": "utt_0144", "text": "deliver to express avenue right in kolkata and my phone is 1124127238", "entities": [{"start": 11, "end": 25, "label": "LOCATION"}, {"start": 35, "end": 42, "label": "CITY"}, {"start": 59, "end": 69, "label": "PHONE"}]}
+{"id": "utt_0816", "text": "just umm checking store timings near delhi", "entities": [{"start": 37, "end": 42, "label": "CITY"}]}
+{"id": "utt_0287", "text": "cab pickup near cubbon actually park tomorrow at 10 uh 10 so 2024 right 6409951239 nothing else", "entities": []}
+{"id": "utt_1127", "text": "email so is mehta dot sharma at outlok dot com but order id is 9876543210 and ref 4242 4242 4242 4242", "entities": [{"start": 12, "end": 46, "label": "EMAIL"}]}
+{"id": "utt_0543", "text": "my credit card number ya is 7063632863011220 and it got blocked yesterday", "entities": [{"start": 28, "end": 44, "label": "CREDIT_CARD"}]}
+{"id": "utt_0746", "text": "email so is kumar dot iyer at gmail dot com but order id 737223 is 9876543210 and ref 23812817 4242 right 4242 4242 4242", "entities": [{"start": 12, "end": 43, "label": "EMAIL"}]}
+{"id": "utt_0936", "text": "cab pickup umm near cubbon park tomorrow at 10 10 068144166611 2024 nothing else", "entities": []}
+{"id": "utt_1015", "text": "hi this right is rahul singh basically i 437531 want change my like phone right number 90367486 to five 7 seven five 3 five one 2 three 1", "entities": [{"start": 17, "end": 28, "label": "PERSON_NAME"}, {"start": 99, "end": 137, "label": "PHONE"}]}
+{"id": "utt_0249", "text": "meeting basically on 20 02 2024 75791452 at phoenix mall like call 93126 97893", "entities": [{"start": 21, "end": 31, "label": "DATE"}, {"start": 44, "end": 56, "label": "LOCATION"}, {"start": 67, "end": 78, "label": "PHONE"}]}
+{"id": "utt_0399", "text": "visiting basically jaipur and connaught right place soon no personal details uh to uh share", "entities": []}
+{"id": "utt_0308", "text": "basically hi this is ramesh verma want to ya change my 447340 phone number to 0968730451", "entities": [{"start": 21, "end": 33, "label": "PERSON_NAME"}, {"start": 78, "end": 88, "label": "PHONE"}]}
+{"id": "utt_0778", "text": "ticket number 98765 43210 but my phone is 54635 17573", "entities": [{"start": 42, "end": 53, "label": "PHONE"}]}
+{"id": "utt_0885", "text": "deliver to express avenue in delhi and my phone is 26080 99371", "entities": [{"start": 11, "end": 25, "label": "LOCATION"}, {"start": 29, "end": 34, "label": "CITY"}, {"start": 51, "end": 62, "label": "PHONE"}]}
+{"id": "utt_0275", "text": "6243958739 hi this is mehta reddy want change my phone number to 60736 07763", "entities": [{"start": 22, "end": 33, "label": "PERSON_NAME"}, {"start": 65, "end": 76, "label": "PHONE"}]}
+{"id": "utt_0182", "text": "visiting jaipur and connaught 37363466 place soon no umm personal details right to share", "entities": []}
+{"id": "utt_0512", "text": "heard about lucknow and brigade road but not sharing phone or mail", "entities": []}
+{"id": "utt_0567", "text": "basically hi this is rahul verma you know i want to change my phone umm number 45456 97296", "entities": [{"start": 21, "end": 32, "label": "PERSON_NAME"}, {"start": 79, "end": 90, "label": "PHONE"}]}
+{"id": "utt_0605", "text": "i booked the ya ticket actually on 01 10 2024 and uh i want 35838439 a 7351745469 refund", "entities": [{"start": 35, "end": 45, "label": "DATE"}]}
+{"id": "utt_1102", "text": "uh visiting jaipur and connaught place soon no personal details to share", "entities": []}
+{"id": "utt_0545", "text": "uh can you 856471778401 please update my email vivek dot singh at hotmail dot com right today", "entities": [{"start": 47, "end": 81, "label": "EMAIL"}]}
+{"id": "utt_0515", "text": "i live 079237 in hyderabad and my phone 0675789683 number is seven zero seven seven three one two three one five", "entities": [{"start": 17, "end": 26, "label": "CITY"}, {"start": 61, "end": 112, "label": "PHONE"}]}
+{"id": "utt_0340", "text": "hi this is mehta verma i want to change my phone number to 0567086700", "entities": [{"start": 11, "end": 22, "label": "PERSON_NAME"}, {"start": 59, "end": 69, "label": "PHONE"}]}
+{"id": "utt_1008", "text": "heard right about lucknow actually and brigade road but actually not 06404121 sharing uh phone or so mail", "entities": []}
+{"id": "utt_0416", "text": "cab pickup near cubbon park tomorrow right at 10 10 umm 2024 7644974700 nothing ya else", "entities": []}
+{"id": "utt_0991", "text": "my credit card number is 6808469001581236 51906724 and it so got blocked yesterday", "entities": [{"start": 25, "end": 41, "label": "CREDIT_CARD"}]}
+{"id": "utt_0436", "text": "uh can you please update my umm email to ramesh dot kumar at gmail dot com today", "entities": [{"start": 41, "end": 74, "label": "EMAIL"}]}
+{"id": "utt_0865", "text": "live like in mumbai and so my basically phone number is 95794 74508", "entities": [{"start": 13, "end": 19, "label": "CITY"}, {"start": 56, "end": 67, "label": "PHONE"}]}
+{"id": "utt_0151", "text": "cab pickup near cubbon park tomorrow so at like 10 10 2024 nothing else", "entities": []}
+{"id": "utt_0427", "text": "deliver to marine drive in delhi and my phone is 40191 85488", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 27, "end": 32, "label": "CITY"}, {"start": 49, "end": 60, "label": "PHONE"}]}
+{"id": "utt_1006", "text": "heard ya about lucknow and brigade road 64245320 but not sharing phone or mail", "entities": []}
+{"id": "utt_0056", "text": "i love the food you know in chennai and marina beach and phoenix mall a ya lot", "entities": []}
+{"id": "utt_0204", "text": "deliver 348079705097 to mg road so in delhi and my actually phone is two eight four one seven seven two two five six", "entities": [{"start": 24, "end": 31, "label": "LOCATION"}, {"start": 38, "end": 43, "label": "CITY"}, {"start": 69, "end": 116, "label": "PHONE"}]}
+{"id": "utt_0921", "text": "staying ya in ahmedabad near marine drive 9538875598 just asking about delivery status", "entities": []}
+{"id": "utt_1074", "text": "right my credit card you know number is 2331 4324 1707 1278 and it got right blocked yesterday", "entities": [{"start": 40, "end": 59, "label": "CREDIT_CARD"}]}
+{"id": "utt_0305", "text": "umm here is transaction number 4242 4242 4242 4242 and actually my right 70033228 card is 6084 7068 1039 0339", "entities": [{"start": 90, "end": 109, "label": "CREDIT_CARD"}]}
+{"id": "utt_0588", "text": "just checking store right timings near pune", "entities": [{"start": 39, "end": 43, "label": "CITY"}]}
+{"id": "utt_1057", "text": "my credit card 925531 number is 0461 6143 8403 9726 like and it got blocked yesterday", "entities": [{"start": 32, "end": 51, "label": "CREDIT_CARD"}]}
+{"id": "utt_0951", "text": "please reset my 4175401637 password the phone linked is 6910829656", "entities": [{"start": 56, "end": 66, "label": "PHONE"}]}
+{"id": "utt_0409", "text": "email is arjun dot singh at gmail dot com but order id is 9876543210 and ref 4242 basically 4242 4242 4242", "entities": [{"start": 9, "end": 41, "label": "EMAIL"}]}
+{"id": "utt_0389", "text": "ticket number 98765 right 43210 but my phone is seven six zero nine three two zero one two six", "entities": [{"start": 48, "end": 94, "label": "PHONE"}]}
+{"id": "utt_1098", "text": "staying uh in ahmedabad basically near marine drive just asking about delivery status", "entities": []}
+{"id": "utt_0617", "text": "meeting on 25 of december 2024 at mg road call two four seven three six five zero zero three two", "entities": [{"start": 11, "end": 30, "label": "DATE"}, {"start": 34, "end": 41, "label": "LOCATION"}, {"start": 47, "end": 96, "label": "PHONE"}]}
+{"id": "utt_0030", "text": "uh can you please actually update my umm email mehta dot rao at outlook dot com today", "entities": [{"start": 47, "end": 79, "label": "EMAIL"}]}
+{"id": "utt_0966", "text": "deliver to central park in chennai and my phone like is 7371967557", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 27, "end": 34, "label": "CITY"}, {"start": 56, "end": 66, "label": "PHONE"}]}
+{"id": "utt_0630", "text": "deliver to brigade road umm in kolkata and actually my phone is three three three eight four nine six five five two", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 31, "end": 38, "label": "CITY"}, {"start": 64, "end": 115, "label": "PHONE"}]}
+{"id": "utt_0555", "text": "call sakshi rao at 2956518871 i like stay near express avenue", "entities": [{"start": 5, "end": 15, "label": "PERSON_NAME"}, {"start": 19, "end": 29, "label": "PHONE"}, {"start": 47, "end": 61, "label": "LOCATION"}]}
+{"id": "utt_0578", "text": "i actually live in hyderabad and my phone number is one six seven four four nine two three four three", "entities": [{"start": 19, "end": 28, "label": "CITY"}, {"start": 52, "end": 101, "label": "PHONE"}]}
+{"id": "utt_0357", "text": "just checking store timings 248255 near mumbai", "entities": [{"start": 40, "end": 46, "label": "CITY"}]}
+{"id": "utt_0284", "text": "call kumar verma at 75575 22501 i stay ya near marine drive", "entities": [{"start": 5, "end": 16, "label": "PERSON_NAME"}, {"start": 20, "end": 31, "label": "PHONE"}, {"start": 47, "end": 59, "label": "LOCATION"}]}
+{"id": "utt_0538", "text": "hi this is vivek singh i want like 901933 change my phone 295616 number so to 4718559407", "entities": [{"start": 11, "end": 22, "label": "PERSON_NAME"}, {"start": 78, "end": 88, "label": "PHONE"}]}
+{"id": "utt_0625", "text": "visiting jaipur like and actually 771251589041 connaught place soon 666081 no personal right details to share", "entities": []}
+{"id": "utt_0870", "text": "ticket 40388333 number so 98765 43210 uh but my you know phone is 3889531154", "entities": [{"start": 66, "end": 76, "label": "PHONE"}]}
+{"id": "utt_0402", "text": "i love the food in chennai and marina basically beach right and phoenix mall like a actually lot", "entities": []}
+{"id": "utt_0307", "text": "this is sita sharma from hyderabad my email is sakshi84 dot rao at gmail dot com", "entities": [{"start": 8, "end": 19, "label": "PERSON_NAME"}, {"start": 25, "end": 34, "label": "CITY"}, {"start": 47, "end": 80, "label": "EMAIL"}]}
+{"id": "utt_0266", "text": "staying in ahmedabad near marine drive just asking about delivery status", "entities": []}
+{"id": "utt_0148", "text": "i 7195979647 love the food actually in so chennai and so marina beach and phoenix mall like a lot", "entities": []}
+{"id": "utt_0641", "text": "77435404 this is kumar singh umm from mumbai my email is ramesh dot singh at gmail dot com", "entities": [{"start": 17, "end": 28, "label": "PERSON_NAME"}, {"start": 38, "end": 44, "label": "CITY"}, {"start": 57, "end": 90, "label": "EMAIL"}]}
+{"id": "utt_0055", "text": "ya uh can like you update my ya email to rahul dot sharma at outlok dot com ya today", "entities": [{"start": 41, "end": 75, "label": "EMAIL"}]}
+{"id": "utt_0478", "text": "heard about lucknow like and you know brigade road but umm not 797247925422 sharing phone or mail", "entities": []}
+{"id": "utt_0195", "text": "ticket number 148727178333 98765 43210 but 6434712871 my phone is 15668 63341", "entities": [{"start": 66, "end": 77, "label": "PHONE"}]}
+{"id": "utt_0664", "text": "email is sakshi24 dot verma at outlok dot com but order id is 9876543210 3012033980 and ref 4242 4242 4242 4242", "entities": [{"start": 9, "end": 45, "label": "EMAIL"}]}
+{"id": "utt_0923", "text": "deliver to brigade road in chennai and my phone is 4190671009", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 27, "end": 34, "label": "CITY"}, {"start": 51, "end": 61, "label": "PHONE"}]}
+{"id": "utt_0110", "text": "ticket like number 98765 43210 802144 but basically my phone is seven five seven zero five one two zero four six", "entities": [{"start": 64, "end": 112, "label": "PHONE"}]}
+{"id": "utt_1055", "text": "meeting on 25 september 2024 like 99458028 at mg road right call 19816 25499", "entities": [{"start": 11, "end": 28, "label": "DATE"}, {"start": 46, "end": 53, "label": "LOCATION"}, {"start": 65, "end": 76, "label": "PHONE"}]}
+{"id": "utt_0146", "text": "hi am just calling ask about delivery status", "entities": []}
+{"id": "utt_0438", "text": "this umm is rahul rao from hyderabad my email is arjun60 dot singh at outlok dot com", "entities": [{"start": 12, "end": 21, "label": "PERSON_NAME"}, {"start": 27, "end": 36, "label": "CITY"}, {"start": 49, "end": 84, "label": "EMAIL"}]}
+{"id": "utt_0343", "text": "uh can you 15388824 update my email so 433335 to mehta91 dot iyer at gamil dot com today", "entities": [{"start": 49, "end": 82, "label": "EMAIL"}]}
+{"id": "utt_0776", "text": "visiting jaipur and connaught place ya soon no uh personal details to share", "entities": []}
+{"id": "utt_0280", "text": "this is rohan patel from bangalore my actually 8439910622 email is mehta dot patel at yahoo dot com", "entities": [{"start": 8, "end": 19, "label": "PERSON_NAME"}, {"start": 25, "end": 34, "label": "CITY"}, {"start": 67, "end": 99, "label": "EMAIL"}]}
+{"id": "utt_0523", "text": "umm i need to uh travel on 25 november 2022 basically to bangalore please call me 023028 at five five zero five two two four one one four", "entities": [{"start": 27, "end": 43, "label": "DATE"}, {"start": 57, "end": 66, "label": "CITY"}, {"start": 92, "end": 137, "label": "PHONE"}]}
+{"id": "utt_0324", "text": "cab pickup near cubbon right park tomorrow at 10 10 2024 ya nothing else", "entities": []}
+{"id": "utt_0914", "text": "call sakshi patel at 60275 78966 i stay you know near central park", "entities": [{"start": 5, "end": 17, "label": "PERSON_NAME"}, {"start": 21, "end": 32, "label": "PHONE"}, {"start": 54, "end": 66, "label": "LOCATION"}]}
+{"id": "utt_0465", "text": "ticket number 98765 102125 43210 but my phone ya is 8603721860", "entities": [{"start": 52, "end": 62, "label": "PHONE"}]}
+{"id": "utt_0801", "text": "i like live in chennai and uh my phone number is one four four eight seven six two one six four", "entities": [{"start": 15, "end": 22, "label": "CITY"}, {"start": 49, "end": 95, "label": "PHONE"}]}
+{"id": "utt_0592", "text": "visiting jaipur and connaught place soon no personal details 832353 to right share", "entities": []}
+{"id": "utt_0142", "text": "ya staying in ahmedabad near 078068 marine drive just asking about delivery status", "entities": []}
+{"id": "utt_0212", "text": "deliver to marine drive in mumbai and my phone is 33302 12606", "entities": [{"start": 11, "end": 23, "label": "LOCATION"}, {"start": 27, "end": 33, "label": "CITY"}, {"start": 50, "end": 61, "label": "PHONE"}]}
+{"id": "utt_0510", "text": "i love 09413490 the food basically in chennai and actually marina beach and 0735674809 phoenix mall a lot", "entities": []}
+{"id": "utt_0772", "text": "here is transaction umm number 4242 4242 4242 4242 and my card is 6851797367990102", "entities": [{"start": 66, "end": 82, "label": "CREDIT_CARD"}]}
+{"id": "utt_0833", "text": "cab pickup near cubbon park tomorrow at 10 10 2024 nothing else", "entities": []}
+{"id": "utt_0529", "text": "umm i need to travel on 2 of may 2024 kolkata please actually call ya 9910042028 me at 16801 99034", "entities": [{"start": 24, "end": 37, "label": "DATE"}, {"start": 38, "end": 45, "label": "CITY"}, {"start": 87, "end": 98, "label": "PHONE"}]}
+{"id": "utt_0615", "text": "ticket number 98765 43210 but my phone is four nine double seven three six seven seven two four", "entities": [{"start": 42, "end": 95, "label": "PHONE"}]}
+{"id": "utt_0969", "text": "heard about lucknow and brigade road but not ya sharing phone or you know mail", "entities": []}
+{"id": "utt_0279", "text": "here is transaction so number right 4242 4242 right 4242 so 4242 and right my card is 3035 8929 8808 5838", "entities": [{"start": 86, "end": 105, "label": "CREDIT_CARD"}]}
+{"id": "utt_1088", "text": "staying in ahmedabad near marine drive uh just asking about delivery status", "entities": []}
+{"id": "utt_0011", "text": "i live basically in kolkata and my phone number is 34714 34558", "entities": [{"start": 20, "end": 27, "label": "CITY"}, {"start": 51, "end": 62, "label": "PHONE"}]}
+{"id": "utt_0657", "text": "so email is mehta dot kumar at outlok dot com but 4829878192 order id is 9876543210 and ref 4242 4242 4242 4242", "entities": [{"start": 12, "end": 45, "label": "EMAIL"}]}
+{"id": "utt_0526", "text": "ticket number 98765 43210 but my right phone is six seven nine two four one five seven one two", "entities": [{"start": 48, "end": 94, "label": "PHONE"}]}
+{"id": "utt_0602", "text": "i booked the ticket on 20 09 2022 2038819376 and i want a refund", "entities": [{"start": 23, "end": 33, "label": "DATE"}]}

@@ -1,5 +1,5 @@
 .venv/
-out/
+out*/
 __pycache__/
 *.pyc
 .DS_Store

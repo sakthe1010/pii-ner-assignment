@@ -15,6 +15,8 @@ NAMES = ["ramesh", "sita", "rohan", "mehta", "rahul", "kumar", "sakshi", "arjun"
 SURNAMES = ["kumar", "sharma", "reddy", "singh", "iyer", "rao", "patel", "verma"]
 CITIES = ["chennai", "delhi", "mumbai", "bangalore", "kolkata", "pune", "hyderabad"]
 LOCATIONS = ["central park", "marine drive", "mg road", "brigade road", "express avenue", "phoenix mall"]
+CITY_DECOYS = ["jaipur", "ahmedabad", "lucknow", "surat"]
+LOCATION_DECOYS = ["connaught place", "marina beach", "cubbon park", "brigade road"]
 DOMAINS = ["gmail dot com", "yahoo dot com", "outlook dot com", "hotmail dot com", "gamil dot com", "outlok dot com"]
 
 DIGIT_WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
@@ -155,6 +157,11 @@ SCENARIOS = [
     ("hi i am just calling to ask about delivery status", []),
     ("uh ya i wanted to know your return policy for damaged items", []),
     ("just checking store timings near {CITY}", ["CITY"]),
+    ("i love the food in chennai and marina beach and phoenix mall a lot", []),
+    ("visiting jaipur and connaught place soon no personal details to share", []),
+    ("cab pickup near cubbon park tomorrow at 10 10 2024 nothing else", []),
+    ("staying in ahmedabad near marine drive just asking about delivery status", []),
+    ("heard about lucknow and brigade road but not sharing phone or mail", []),
 ]
 
 ENTITY_GENERATORS = {

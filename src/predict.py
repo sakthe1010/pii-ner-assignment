@@ -80,6 +80,49 @@ def apply_regex_overrides(text, spans):
     return spans
 
 
+def filter_spans(text, spans, logit_scores=None, ids=None, min_conf: float = 0.0):
+    """
+    Drop low-confidence or implausible spans to bump precision.
+    - CREDIT_CARD: require 16 digits (allow spaces/hyphens)
+    - PHONE: require 10 digits (allow spaces)
+    - EMAIL: must contain 'at' and 'dot' somewhere
+    - DATE: keep as-is
+    """
+    filtered = []
+    for span in spans:
+        s, e, lab = span
+        chunk = text[s:e]
+        digits = re.sub(r"\\D", "", chunk)
+        # label-specific confidence targets
+        cc_conf = 0.6
+        phone_conf = 0.4
+        email_conf = 0.5
+        label_min_conf = min_conf
+        if lab == "CREDIT_CARD":
+            if len(digits) != 16:
+                continue
+            label_min_conf = cc_conf
+        elif lab == "PHONE":
+            if len(digits) != 10:
+                continue
+            label_min_conf = phone_conf
+        elif lab == "EMAIL":
+            lowered = chunk.lower()
+            if not (("at" in lowered and "dot" in lowered) or "@" in lowered):
+                continue
+            label_min_conf = email_conf
+        # optional confidence gate (token-level max over span)
+        if logit_scores and ids:
+            span_scores = []
+            for idx, (start, end) in enumerate(ids):
+                if start >= s and end <= e and (end - start) > 0:
+                    span_scores.append(max(logit_scores[idx]))
+            if span_scores and max(span_scores) < label_min_conf:
+                continue
+        filtered.append(span)
+    return filtered
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model_dir", default="out")
@@ -120,9 +163,11 @@ def main():
                 out = model(input_ids=input_ids, attention_mask=attention_mask)
                 logits = out.logits[0]
                 pred_ids = logits.argmax(dim=-1).cpu().tolist()
+                scores = logits.softmax(dim=-1).cpu().tolist()
 
             spans = bio_to_spans(text, offsets, pred_ids)
             spans = apply_regex_overrides(text, spans)
+            spans = filter_spans(text, spans, logit_scores=scores, ids=offsets, min_conf=0.6)
             ents = []
             for s, e, lab in spans:
                 ents.append(
