@@ -92,18 +92,17 @@ def filter_spans(text, spans, logit_scores=None, ids=None, min_conf: float = 0.0
     for span in spans:
         s, e, lab = span
         chunk = text[s:e]
-        digits = re.sub(r"\\D", "", chunk)
-        # label-specific confidence targets
-        cc_conf = 0.4
-        phone_conf = 0.2
+        digits = re.sub(r"\D", "", chunk)
+        cc_conf = 0.3
+        phone_conf = 0.1
         email_conf = 0.0
         label_min_conf = min_conf
         if lab == "CREDIT_CARD":
-            if len(digits) != 16:
+            if not (15 <= len(digits) <= 16):
                 continue
             label_min_conf = cc_conf
         elif lab == "PHONE":
-            if len(digits) != 10:
+            if not (10 <= len(digits) <= 11):
                 continue
             label_min_conf = phone_conf
         elif lab == "EMAIL":
@@ -111,7 +110,6 @@ def filter_spans(text, spans, logit_scores=None, ids=None, min_conf: float = 0.0
             if not (("at" in lowered and "dot" in lowered) or "@" in lowered):
                 continue
             label_min_conf = email_conf
-        # optional confidence gate (token-level max over span)
         if logit_scores and ids:
             span_scores = []
             for idx, (start, end) in enumerate(ids):
