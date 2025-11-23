@@ -94,9 +94,9 @@ def filter_spans(text, spans, logit_scores=None, ids=None, min_conf: float = 0.0
         chunk = text[s:e]
         digits = re.sub(r"\\D", "", chunk)
         # label-specific confidence targets
-        cc_conf = 0.6
-        phone_conf = 0.4
-        email_conf = 0.5
+        cc_conf = 0.4
+        phone_conf = 0.2
+        email_conf = 0.0
         label_min_conf = min_conf
         if lab == "CREDIT_CARD":
             if len(digits) != 16:
