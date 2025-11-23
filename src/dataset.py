@@ -55,6 +55,10 @@ class PIIDataset(Dataset):
                     bio_tags = ["O"] * len(input_ids)
 
                 label_ids = [self.label2id.get(t, self.label2id["O"]) for t in bio_tags]
+                # Ignore special tokens (offset_mapping gives (0, 0) for them)
+                for i, (start, end) in enumerate(offsets):
+                    if start == 0 and end == 0:
+                        label_ids[i] = -100
 
                 self.items.append(
                     {

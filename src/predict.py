@@ -4,6 +4,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from labels import ID2LABEL, label_is_pii
 import os
+import re
 
 
 def bio_to_spans(text, offsets, label_ids):
@@ -41,6 +42,40 @@ def bio_to_spans(text, offsets, label_ids):
 
     if current_label is not None:
         spans.append((current_start, current_end, current_label))
+
+    return spans
+
+
+def apply_regex_overrides(text, spans):
+    """Use lightweight regex helpers to fix obvious numeric entity types."""
+    def upsert(target_label, start, end):
+        # If a span with identical offsets exists, relabel it; else append.
+        for i, (s, e, lab) in enumerate(spans):
+            if s == start and e == end:
+                spans[i] = (s, e, target_label)
+                return
+        spans.append((start, end, target_label))
+
+    phone_re = re.compile(r"\b\d{10}\b")
+    cc_re = re.compile(r"\b(?:\d{4}\s?){4}\b")
+    date_re = re.compile(r"\b\d{2}\s\d{2}\s\d{4}\b")
+
+    for m in phone_re.finditer(text):
+        upsert("PHONE", m.start(), m.end())
+    for m in cc_re.finditer(text):
+        upsert("CREDIT_CARD", m.start(), m.end())
+    for m in date_re.finditer(text):
+        upsert("DATE", m.start(), m.end())
+
+    # If something was tagged as CREDIT_CARD but is only 10 digits, flip to PHONE.
+    for i, (s, e, lab) in enumerate(list(spans)):
+        if lab == "CREDIT_CARD":
+            span_txt = text[s:e]
+            digits_only = re.sub(r"\D", "", span_txt)
+            if len(digits_only) == 10:
+                spans[i] = (s, e, "PHONE")
+            elif re.fullmatch(r"\d{2}\s\d{2}\s\d{4}", span_txt):
+                spans[i] = (s, e, "DATE")
 
     return spans
 
@@ -87,6 +122,7 @@ def main():
                 pred_ids = logits.argmax(dim=-1).cpu().tolist()
 
             spans = bio_to_spans(text, offsets, pred_ids)
+            spans = apply_regex_overrides(text, spans)
             ents = []
             for s, e, lab in spans:
                 ents.append(
